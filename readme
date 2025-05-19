@@ -1,0 +1,30 @@
+# Income Expense Calculator
+
+A simple web application to track your incomes and expenses, providing a clear overview of your financial status.
+
+## Features
+
+- Add new income and expense entries.
+- Edit existing entries.
+- Delete entries with confirmation.
+- Filter entries (All, Income, Expense).
+- Displays total income, total expenses, and net balance.
+- Data persistence using Local Storage.
+- Responsive design for desktop and mobile.
+- Focus and hover animations for interactive elements.
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+## Usage
+
+1. Clone the repository or download the files.
+2. Open `index.html` in your preferred browser.
+3. Start adding your income and expense entries.
+
+## License
+
+MIT
