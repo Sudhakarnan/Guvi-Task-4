@@ -62,18 +62,12 @@ function updateTotals() {
 
 // Reset form
 function resetForm() {
-  // Clear the input fields and editing state
   descriptionEl.value = '';
   amountEl.value      = '';
   editId              = null;
   addBtn.textContent  = 'Add';
-
-  // --- NEW: clear all entries ---
-  entries = [];
-  save();               // persist the empty array
-  renderEntries();      // wipe the table
-  updateTotals();       // reset the stats display
 }
+
 // Add / Update
 function addEntry() {
   const desc = descriptionEl.value.trim();
